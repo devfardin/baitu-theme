@@ -53,8 +53,8 @@
 /* Rank math bradcode */
 nav.rank-math-breadcrumb p {
     text-align: center;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
     color: black;
     font-family: 'inter';
     transition: all 0.3s;
@@ -62,7 +62,7 @@ nav.rank-math-breadcrumb p {
 
 nav.rank-math-breadcrumb p a {
     color: black;
-    font-weight: 700;
+    font-weight: 600;
     font-family: 'inter';
     transition: all 0.3s;
 }
@@ -71,7 +71,6 @@ nav.rank-math-breadcrumb p a:hover{
 }
 nav.rank-math-breadcrumb p .separator {
     color: var(--e-global-color-primary);
-    /* color: black; */
     padding: 0 10px;
 }
 
