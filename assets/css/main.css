@@ -80,4 +80,11 @@ nav.rank-math-breadcrumb p .separator {
     padding: 6px;
 }
 
-
+/* Post Empty Message style */
+.empty_message{
+    text-align: center;
+    font-size: 20x;
+    font-family: 'inter';
+    font-weight: 500;
+    color: #08110D;
+}
