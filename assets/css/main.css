@@ -88,3 +88,71 @@ nav.rank-math-breadcrumb p .separator {
     font-weight: 500;
     color: #08110D;
 }
+
+/* Feedback page  */
+h3.wpmtst-testimonial-heading.testimonial-heading {
+    display: none;
+}
+.strong-view-id-3 .wpmtst-testimonial-image.testimonial-image img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+/* contact form style */
+.ff-default .ff-el-form-control {
+    background-clip: padding-box;
+    background-image: none;
+    border: 1px solid var(--e-global-color-primary);
+    border-radius: 5px;
+    color: var(--fluentform-secondary);
+    font-family: -apple-system, "system-ui", Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+    line-height: 1;
+    margin-bottom: 0;
+    max-width: 100%;
+    padding: 15px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.ff-default .ff-el-input--label label {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Inter';
+    color: var(--e-global-color-primary);
+}
+button.ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style {
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 12px 40px;
+    background: var(--e-global-color-primary);
+}
+select.ff-el-form-control:not([size]):not([multiple]) {
+    height: 50px;
+}
+/* Contact page info */
+.contact_us .elementor-icon-box-description a {
+    color: #3c3c3c;
+    transition:all 0.3s;
+    line-height: 1.6em;
+}
+.contact_us .elementor-icon-box-description a:hover {
+    color: var(--e-global-color-primary);
+}
+
+/* Feed back form */
+p.required-notice {
+    display: none;
+}
+.strong-form .form-field {
+    margin-bottom: 0 !important;
+}
+.form-field.field-featured_image {
+    margin: 15px 0 !important;
+}
+.form-field.wpmtst-submit input {
+    background: var(--e-global-color-primary);
+    margin-top: 15px;
+    font-size: 18px !important;
+    font-weight: 600;
+    padding: 15px 30px;
+}
